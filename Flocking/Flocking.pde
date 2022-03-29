@@ -36,7 +36,7 @@ void setup() {
   float hue_low = 240;
   float hue_high = 255;
   for (int i = 0; i < max_boids; i++) {
-      flock.addBoid(new Boid(map(i, 0, max_boids, 0, width),height/2,hue_high,hue_low));
+      flock.addBoid(new Boid(map(i, 0, max_boids, 200, width-200),height/2,hue_high,hue_low));
   }
 }
 
