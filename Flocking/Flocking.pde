@@ -1,6 +1,9 @@
 /**
- * Flocking 
- * by Daniel Shiffman.  
+ * AR521 Flocking
+ * By Theodor Waalberg
+ * based on the example
+ * by Daniel Shiffman. 
+ * found here: https://github.com/processing/processing-examples/tree/main/Topics/Simulate/Flocking
  * 
  * An implementation of Craig Reynold's Boids program to simulate
  * the flocking behavior of birds. Each boid steers itself based on 
